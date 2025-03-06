@@ -1,1 +1,73 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+/* Hero Section Container */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Image Styling */
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Content Styling */
+.hero .content {
+  position: relative;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  padding: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* Heading Styles */
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* Paragraph Styles */
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Button (Explore Now) Styles */
+.explore-btn {
+  padding: 15px 30px;
+  background-color: #E60023;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #D3001F;
+}
+
 /*  your css code here. If applicable */
